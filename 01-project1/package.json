@@ -1,9 +1,9 @@
 {
-  "name": "01-project1",
+  "name": "top-api",
   "version": "0.0.1",
   "description": "",
-  "author": "",
-  "private": true,
+  "author": "Roma Makarov",
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
