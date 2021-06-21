@@ -9,10 +9,6 @@ import { ProductModule } from './product/product.module';
 import { TopPageModule } from './top-page/top-page.module';
 import { ReviewModule } from './review/review.module';
 
-import { AppController } from './app.controller';
-
-import { AppService } from './app.service';
-
 @Module({
   imports: [
     ConfigModule.forRoot(),
@@ -26,7 +22,5 @@ import { AppService } from './app.service';
     TopPageModule,
     ReviewModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
 export class AppModule {}
