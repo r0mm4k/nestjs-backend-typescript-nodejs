@@ -4,9 +4,7 @@ import * as request from 'supertest';
 import { disconnect, Types } from 'mongoose';
 
 import { AppModule } from '../src/app.module';
-
 import { CreateReviewDto } from '../src/review/dto/create-review.dto';
-
 import { REVIEW_NOT_FOUND } from '../src/review/review.constants';
 
 const productId = new Types.ObjectId().toHexString();
